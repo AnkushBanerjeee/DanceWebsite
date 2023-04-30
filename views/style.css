@@ -1,0 +1,104 @@
+*{
+    margin:-4px; 
+    box-sizing: border-box; 
+    padding: 5px; 
+
+}
+#navbar{ 
+    text-align: center; 
+    text-decoration: double; 
+    font-size:large;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5px 2px;  
+    background-color:brown;
+}  
+#logo{
+    display: flex; 
+    color: black;  
+    align-items:center;
+    font-size: 29px; 
+    margin-right: 40px;
+    
+} 
+
+#logo img{
+    height:45px; 
+    shape-image-threshold: inherit;
+   align-items: center; 
+}
+#navbar li{
+    list-style:none; 
+} 
+#navbar ul{
+    display: flex; 
+    flex-direction: row; 
+    
+} 
+#navbar li a{
+    text-decoration: none; 
+    padding: 6px 13px;  
+    color:black;  
+    font-size:large;  
+    font-weight: bold; 
+    font-style: 20px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#navbar li a:hover{
+    text-decoration: none;  
+    padding: 13px 30px; 
+    color:darkblue;  
+} 
+#introSection {  
+    background: center/cover no-repeat url("/static/one.jpg");  
+    background-color:orangered;
+     height: 250px; 
+     display: flex; 
+     justify-content:end; 
+     align-items:center; 
+     color: cornsilk; 
+     font-family:cursive; 
+     font-size: 2rem; 
+    flex-direction: column; 
+    margin: -3px; 
+}  
+#introSection div.small{ 
+    font-size: 1rem; 
+} 
+#sponsersSection {
+    height: 230px;
+     background-color:aliceblue; 
+     font-size:2rem;  
+     color: rgba(27, 27, 192, 0.859); 
+       text-align: center; 
+       justify-content: center;
+     
+} 
+#sponsersSection div.types{
+    font-size: 1rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black; 
+    
+}
+#Mission{
+    text-align:right; 
+    background-color:rgb(15, 90, 15); 
+    padding-top: 12px;  
+    height: 180px; 
+    color: white; 
+    
+} 
+.card{
+    
+    color:black;  
+    text-decoration: none; 
+    text-overflow: inherit;  
+    font-style: italic; 
+    text-align: end; 
+
+} 
+footer{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; 
+    
+}
